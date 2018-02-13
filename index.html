@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!-- saved from url=(0081)http://www.17sucai.com/preview/1/2015-09-16/html5-heart-beta-animation/index.html -->
+<html class=" -webkit-"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Love</title>
+
+<style>
+
+body {
+      background-color: #f3c7c7;
+}
+.container {
+  width: 512px;
+  height: 380px;
+  margin: auto;
+  margin-top: 0;
+}
+
+.heart {
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  margin-top: -75px;
+  left: 50%;
+  margin-left: -75px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image:url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjE3M3B4IiBoZWlnaHQ9IjE1OHB4IiB2aWV3Qm94PSIwIDAgMTczIDE1OCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTczIDE1OCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBmaWxsPSIjRUY0NjU3IiBkPSJNMTU3LjMzMSwxNS41MDRjLTE5LjU1OS0xOS41NTktNTEuMjcxLTE5LjU1OS03MC44MzEsMGMtMTkuNTU5LTE5LjU1OS01MS4yNzEtMTkuNTU5LTcwLjgzMSwwDQoJYy0xOS41NTksMTkuNTU5LTE5LjU1OSw1MS4yNzEsMCw3MC44MzFsNzAuODMxLDcwLjgzbDcwLjgzMS03MC44M0MxNzYuODksNjYuNzc1LDE3Ni44OSwzNS4wNjQsMTU3LjMzMSwxNS41MDR6Ii8+DQo8L3N2Zz4=");
+}
+.hometown {
+  font-family:'Microsoft YaHei', sans-serif;
+  font-weight: bold;
+  font-size: 2.0em;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  width: 512px;
+  height: 512px;
+  color: #FFF;
+}
+#top {
+  width: 200px;
+  margin: auto;
+  position: relative;
+}
+#top span {
+  height: 350px;
+  position: absolute;
+  width: 20px;
+  left: 50%;
+  margin-left: -10px;
+  top: 110px;
+}
+.char1 {
+	transform: rotate(-36deg);
+}
+.char2 {
+	transform: rotate(-24deg);
+}
+.char3 {
+	transform: rotate(-12deg);
+}
+.char4 {
+	transform: rotate(0deg);
+}
+.char5 {
+	transform: rotate(12deg);
+}
+.char6 {
+	transform: rotate(24deg);
+}
+.char7 {
+	transform: rotate(36deg);
+}
+
+#bottom span {
+  height: 350px;
+  line-height: 700px;
+  position: absolute;
+  width: 20px;
+  left: 50%;
+  margin-left: -10px;
+  top: 10px;
+}
+
+#bottom .char1 {
+	transform: rotate(36deg);
+}
+#bottom .char2 {
+	transform: rotate(27deg);
+}
+#bottom .char3 {
+	transform: rotate(23deg);
+}
+#bottom .char4 {
+	transform: rotate(14deg);
+}
+#bottom .char5 {
+	transform: rotate(3deg);
+}
+#bottom .char6 {
+	transform: rotate(-5deg);
+}
+#bottom .char7 {
+	transform: rotate(-14deg);
+}
+#bottom .char8 {
+	transform: rotate(-21deg);
+}
+#bottom .char9 {
+	transform: rotate(-36deg);
+}
+
+.love {
+  font-family:"Hammersmith One";
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+  padding-top: 45px;
+  text-align: center;
+  font-size: 3.0em;
+  z-index: 100;
+  position: absolute;
+  top: 50%;
+  margin-top: -110px;
+}
+
+.heart {
+  animation: HEARTBEAT 2.5s infinite;
+}
+#top span {
+  animation: BOUNCE 2.5s infinite;
+}
+
+@keyframes HEARTBEAT {
+  0% {
+    transform: scale(1);
+  }
+  5% {
+    transform: scale(1.3);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  15% {
+    transform: scale(1.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes BOUNCE {
+  0% {
+    top: 110px;
+  }
+  10% {
+    top: 80px;
+  }
+  15% {
+    top: 85px;
+  }
+  20% {
+    top: 70px;
+  }
+  75% {
+    top: 110px;
+  }
+  100% {
+    top: 110px;
+  }
+}
+
+#cp {
+    position: absolute;
+    left: 6px;
+    top: 150px;
+    width: 750px;
+}
+#valDay {
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 430px;
+    left: 50px;
+}
+#lion,#rabbit{width: 150px;margin-right: 200px;}
+</style>
+</head>
+
+<body>
+
+<div class="container bg">
+	<div class="hometown">
+		<div class="heart"></div>
+		<div id="top"><span class="char1"></span><span class="char2">C</span><span class="char3">h</span><span class="char4">u</span><span class="char5">c </span><span class="char6">k</span><span class="char7"></span></div>
+		<div class="love">Love</div>
+		<div id="bottom"><span class="char1"> </span><span class="char2"> </span><span class="char3">A</span><span class="char4">m</span><span class="char5">e</span><span class="char6">l</span><span class="char7">i</span><span class="char8">e</span><span class="char9"></span></div>
+	 <div id="cp"><img src="rabbit.png" alt="" id="lion"><img src="lion.png" alt="" id="rabbit"></div>
+    <div id="valDay"></div>
+  </div>
+</div>
+
+<script type="text/javascript" src="./jquery.js"></script>
+
+<script type="text/javascript">
+
+function checkTime(i){ //将0-9的数字前面加上0，例1变为01 
+  if(i<10) 
+  { 
+    i = "0" + i; 
+  } 
+  return i; 
+} 
+
+function leftTimer(year,month,day,hour,minute,second){ 
+  var leftTime = (new Date(year,month-1,day,hour,minute,second)) - (new Date()); //计算剩余的毫秒数 
+  if(leftTime <= 0){
+      clearInterval(valDayTimer);
+      window.location.href = "Love.html"
+  }
+  var days = parseInt(leftTime / 1000 / 60 / 60 / 24 , 10); //计算剩余的天数 
+  var hours = parseInt(leftTime / 1000 / 60 / 60 % 24 , 10); //计算剩余的小时 
+  var minutes = parseInt(leftTime / 1000 / 60 % 60, 10);//计算剩余的分钟 
+  var seconds = parseInt(leftTime / 1000 % 60, 10);//计算剩余的秒数 
+  days = checkTime(days); 
+  hours = checkTime(hours); 
+  minutes = checkTime(minutes); 
+  seconds = checkTime(seconds); 
+var result = "距离情人节还有  <span class=\"digit\">" + days + "</span> 天 <span class=\"digit\">" + hours + "</span> 小时 <span class=\"digit\">" + minutes + "</span> 分钟 <span class=\"digit\">" + seconds + "</span> 秒"; 
+  $("#valDay").html(result);
+
+} 
+ var valDayTimer =  setInterval("leftTimer(2018,2,13,15,21,0)",1000); 
+</script>
+
+
+</body></html>
