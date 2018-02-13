@@ -236,6 +236,9 @@ var result = "距离情人节还有  <span class=\"digit\">" + days + "</span> �
 
 } 
  var valDayTimer =  setInterval("leftTimer(2018,2,14,0,0,0)",1000); 
+ $("body").on('touchmove', function (event) {event.preventDefault();});
+document.addEventListener('touchmove', function(e){e.preventDefault()}, false);
+
 </script>
 
 
